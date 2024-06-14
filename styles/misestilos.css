@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: url(../imagenes/imagen-rgb.jpg ) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+}
+
+h1 {
+    color: red;
+    text-shadow: 2px 2px 4px black;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    background-color: #1e1e1e;
+    color: #00ff00;
+    padding: 10px;
+    margin-bottom: 0px; /* Espacio pequeño entre h2 y los botones */
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #1e1e1e;
+    color: #00ff00;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #ff00ff
+}
+
+nav a:hover {
+    background-color:#272727;
+    color: #ff00ff; /* Hover en rosa neón */
+
+}
+
+.event-container {
+    display: inline-block;
+    text-align: left;
+}
+
+.event-container img {
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo{
+    display: inline-block;
+    width: 300px;  /* Ajusta este valor según el tamaño deseado */
+    height:300px;
+}
